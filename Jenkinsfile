@@ -6,7 +6,7 @@ pipeline {
 	stages {
 		stage('Stage1: My Build') {
 			steps {
-				bat 'mvn Build'
+				bat 'mvn build'
 				}
 			}
     
